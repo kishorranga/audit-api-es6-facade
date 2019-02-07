@@ -1,4 +1,9 @@
 
+/***
+ * Author : Kishor Ranga
+ * licence : Open to use by anyone
+ * Date: 7th Feb 2019, Pune / Wakad
+ */
 import * as graphql from 'graphql';
 import { productQuery } from '../query/product.query';
 import graphHTTP = require('express-graphql');

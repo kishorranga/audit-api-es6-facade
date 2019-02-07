@@ -1,3 +1,8 @@
+/***
+ * Author : Kishor Ranga
+ * licence : Open to use by anyone
+ * Date: 7th Feb 2019, Pune / Wakad
+ */
 import express from 'express';
 import GraphQLController from "./controller/graphql.controller";
 import bodyParser = require('body-parser');
