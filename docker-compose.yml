@@ -1,0 +1,8 @@
+audit-api-es6-facade:
+    restart: always
+    image: audit-api-es6-facade
+    build: ./audit-api-es6-facade
+    container_name: audit-api-es6-facade
+    environment:
+      - VIRTUAL_HOST=localhost
+      - VIRTUAL_PORT=3001
